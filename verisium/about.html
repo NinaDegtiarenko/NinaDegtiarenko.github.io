@@ -1,0 +1,447 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>About</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#fff">
+	<meta name="format-detection" content="telephone=no">
+
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16" />
+	<meta name="msapplication-TileColor" content="#FFFFFF" />
+
+	<link rel="stylesheet" media="all" href="css/app.css">
+</head>
+
+<body>
+
+	<script>
+		var mainB = document.querySelector('body');
+		mainB.style.marginRight = (window.innerWidth - mainB.offsetWidth) + "px";
+		mainB.style.overflow = "hidden";
+	</script>
+
+	<div class="preloader">
+		<svg id="logoSvg" width="406" height="287" viewBox="0 0 406 287" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path class="draw-ordinary"
+				d="M2 1H162.683L274.689 265.292L315.006 173.583L279.161 87.2917L243.317 1H404L284.342 286H122.658L2 1Z"
+				stroke="#DADADA" stroke-width="2" />
+			<path class="draw-main"
+				d="M2 1H162.683L274.689 265.292L315.006 173.583L279.161 87.2917L243.317 1H404L284.342 286H122.658L2 1Z"
+				stroke="#FF634E" stroke-width="2" stroke-dashoffset="0" style="opacity: 0;" />
+		</svg>
+	</div>
+
+	<!-- Begin Header -->
+	<header class="header">
+		<div class="header__inner">
+			<div class="header__logo">
+				<a href="/">
+					<div class="icon-union"></div>
+					<div class="icon-logo"></div>
+				</a>
+			</div>
+			<input type="checkbox" name="burger-menu" id="toggle-nav" class="header__hamburger--nav">
+			<div class="header__menu">
+				<nav>
+					<ul>
+						<li><a href="fields.html">Fields of use</a></li>
+						<li><a href="pricing.html">Pricing</a></li>
+						<li><a href="about.html">About us</a></li>
+						<li><a href="technologies.html">Technologies</a></li>
+						<li><a href="contacts.html">Contact us</a></li>
+					</ul>
+				</nav>
+				<select name="lang_choice_1" id="lang_choice_1">
+					<option value="en" selected="selected">En</option>
+					<option value="ru">Ru</option>
+				</select>
+				<button class="header__btn js-open-p" data-open="contact-popup">get started</button>
+				<div class="header__socials">
+					<a href="https://www.facebook.com/verisium/" target="_blank" class="header__socials--item icon-facebook"></a>
+					<a href="https://twitter.com/verisium/" target="_blank" class="header__socials--item icon-twitter"></a>
+					<a href="https://www.linkedin.com/company/verisium/" target="_blank"
+						class="header__socials--item icon-linkedin"></a>
+					<a href="https://www.instagram.com/verisium/" target="_blank"
+						class="header__socials--item icon-instagram"></a>
+				</div>
+			</div>
+			<label for="toggle-nav" class="header__hamburger--label js-hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</label>
+		</div>
+	</header>
+	<!-- End Header -->
+
+	<!-- BEGIN content -->
+	<main class="main">
+		<section class="mission">
+			<div class="container">
+				<div class="mission__main-text">
+					<h1>Our mission</h1>
+					<p>Use Innovation Technology to enable companies to create new experiences for their customers</p>
+				</div>
+				<div class="mission__decription">
+					<p>At Verisium we believe that technology, business thinking and product dedication are ESSENTIAL for a
+						historically significant breakthrough.</p>
+					<p>Our team members are bright individuals with both high level of EXPERTISE and a great degree of FREEDOM</p>
+				</div>
+				<div class="mission__link">
+					<a href="/team.html" class="btn-wr">
+						<span>our team</span>
+						<svg width="25" height="8" viewBox="0 0 25 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M24.3536 4.35355C24.5488 4.15829 24.5488 3.84171 24.3536 3.64645L21.1716 0.464466C20.9763 0.269204 20.6597 0.269204 20.4645 0.464466C20.2692 0.659728 20.2692 0.976311 20.4645 1.17157L23.2929 4L20.4645 6.82843C20.2692 7.02369 20.2692 7.34027 20.4645 7.53553C20.6597 7.7308 20.9763 7.7308 21.1716 7.53553L24.3536 4.35355ZM0 4.5H24V3.5H0V4.5Z" />
+						</svg>
+					</a>
+				</div>
+				<div class="mission__bg">
+					<img src="img/about/union.svg" alt="Union svg">
+				</div>
+			</div>
+		</section>
+
+
+		<section class="know">
+			<div class="container">
+				<figure class="contacts__figure">
+					<img class="js-lazy" data-src="img/contact/contact-img1.jpg" alt="About image">
+				</figure>
+
+				<h2>Some things you need to know about us:</h2>
+
+				<div class="know__text">
+					<div class="know__text--inner">
+						<p>Things have been busy at Verisium. Since our last update, we have been working to enhance the ways
+							brands can transform their products to connect with customers. We’re excited to share that our latest
+							update includes many of the features you have been asking for, and a few more.
+						</p>
+						<p>Today we think of email and social media as the primary content channels to reach audiences. However,
+							those solutions lack the ability to provide great customer experiences and add value to products. Email
+							is limited and traditionally has low engagement rates. </p>
+					</div>
+					<div class="know__text--inner">
+						<p>Things have been busy at Verisium. Since our last update, we have been working to enhance the ways
+							brands can transform their products to connect with customers.</p>
+						<p>We are excited to share that our latest update includes many of the features you have been asking for,
+							and a few more.Today we think of email and social media as the primary content channels to reach
+							audiences.</p>
+						<p>However, those solutions lack the ability to provide great customer experiences and add value to
+							products. Email is limited and traditionally has low engagement rates.</p>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="projects">
+			<div class="container">
+				<div class="projects__top">
+					<h2>Our last projects</h2>
+					<div class="main-controls js-proj-controls">
+						<button class="left-swipe"></button>
+						<button class="right-swipe"></button>
+					</div>
+				</div>
+				<div class="swiper-container projects__slider" data-filter="img/displacement_map_repeat.jpg">
+					<div class="swiper-wrapper">
+
+						<div class="swiper-slide js-proj">
+							<a href="/" class="projects__item">
+								<div class="projects__item--inner js-loadme" data-src="img/about/slider-item-1.png">
+									<div class="projects__item--info">
+										<p class="projects__item--name">Die Antwoord</p>
+										<span class="projects__item--category">Music</span>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="swiper-slide">
+							<a href="/" class="projects__item">
+								<div class="projects__item--inner js-loadme" data-src="img/about/slider-item-1.png">
+									<div class="projects__item--info">
+										<p class="projects__item--name">Die Antwoord</p>
+										<span class="projects__item--category">Music</span>
+									</div>
+								</div>
+							</a>
+						</div>
+
+
+						<div class="swiper-slide">
+							<a href="/" class="projects__item">
+								<div class="projects__item--inner js-loadme" data-src="img/about/slider-item-1.png">
+									<div class="projects__item--info">
+										<p class="projects__item--name">Die Antwoord</p>
+										<span class="projects__item--category">Music</span>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="swiper-slide">
+							<a href="/" class="projects__item">
+								<div class="projects__item--inner js-loadme" data-src="img/about/slider-item-1.png">
+									<div class="projects__item--info">
+										<p class="projects__item--name">Die Antwoord</p>
+										<span class="projects__item--category">Music</span>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="swiper-slide">
+							<a href="/" class="projects__item">
+								<div class="projects__item--inner js-loadme" data-src="img/about/slider-item-1.png">
+									<div class="projects__item--info">
+										<p class="projects__item--name">Die Antwoord</p>
+										<span class="projects__item--category">Music</span>
+									</div>
+								</div>
+							</a>
+						</div>
+
+
+					</div>
+
+				</div>
+				<a href="/portfolio" class="view-link">View all</a>
+			</div>
+		</section>
+
+
+		<section class="blog">
+			<div class="container">
+				<h2>Blog</h2>
+				<div class="blog__list">
+
+					<a href="/" class="blog__list--item">
+						<div class="blog__list--inner js-loadme" data-src="img/about/blog-item-1.png">
+							<div class="blog__list--text">
+								<p class="blog__list--name">Android NFC Guide</p>
+								<span class="blog__list--date">Oct 13</span>
+							</div>
+						</div>
+					</a>
+
+					<a href="/" class="blog__list--item">
+						<div class="blog__list--inner js-loadme" data-src="img/about/blog-item-1.png">
+							<div class="blog__list--text">
+								<p class="blog__list--name">Android NFC Guide</p>
+								<span class="blog__list--date">Oct 13</span>
+							</div>
+						</div>
+					</a>
+
+
+					<a href="/" class="blog__list--item">
+						<div class="blog__list--inner js-loadme" data-src="img/about/blog-item-1.png">
+							<div class="blog__list--text">
+								<p class="blog__list--name">Android NFC Guide</p>
+								<span class="blog__list--date">Oct 13</span>
+							</div>
+						</div>
+					</a>
+
+
+				</div>
+				<a href="/blog.html" class="blog__list--link btn-wr">
+					<span>all news</span>
+					<svg width="25" height="8" viewBox="0 0 25 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M24.3536 4.35355C24.5488 4.15829 24.5488 3.84171 24.3536 3.64645L21.1716 0.464466C20.9763 0.269204 20.6597 0.269204 20.4645 0.464466C20.2692 0.659728 20.2692 0.976311 20.4645 1.17157L23.2929 4L20.4645 6.82843C20.2692 7.02369 20.2692 7.34027 20.4645 7.53553C20.6597 7.7308 20.9763 7.7308 21.1716 7.53553L24.3536 4.35355ZM0 4.5H24V3.5H0V4.5Z" />
+					</svg>
+				</a>
+			</div>
+		</section>
+
+
+		<section class="partners about-partners">
+			<div class="container">
+				<div class="partners__inner">
+					<div class="partners__text">
+						<h2>Partners</h2>
+						<div class="partners__slider--status">
+							<span class="slide-index"></span>
+							<div class="status-line"><span></span></div>
+							<span class="slide-total"></span>
+						</div>
+					</div>
+					<div class="partners__slider">
+						<div class="swiper-container with-status">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<img class="js-lazy" data-src="img/main/partners-image.svg" alt="partners image">
+									<p>Provides innovative IT security solutions for business and consumers
+										Founded in 1997, Kaspersky is celebrating its 20th anniversary this year
+										3,000 highly qualified specialists1</p>
+								</div>
+								<div class="swiper-slide">
+									<img class="js-lazy" data-src="img/main/partners-image.svg" alt="partners image">
+									<p>Provides innovative IT security solutions for business and consumers
+										Founded in 1997, Kaspersky is celebrating its 20th anniversary this year
+										3,000 highly qualified specialists2</p>
+								</div>
+								<div class="swiper-slide">
+									<img class="js-lazy" data-src="img/main/partners-image.svg" alt="partners image">
+									<p>Provides innovative IT security solutions for business and consumers
+										Founded in 1997, Kaspersky is celebrating its 20th anniversary this year
+										3,000 highly qualified specialists3</p>
+								</div>
+								<div class="swiper-slide">
+									<img class="js-lazy" data-src="img/main/partners-image.svg" alt="partners image">
+									<p>Provides innovative IT security solutions for business and consumers
+										Founded in 1997, Kaspersky is celebrating its 20th anniversary this year
+										3,000 highly qualified specialists4</p>
+								</div>
+								<div class="swiper-slide">
+									<img class="js-lazy" data-src="img/main/partners-image.svg" alt="partners image">
+									<p>Provides innovative IT security solutions for business and consumers
+										Founded in 1997, Kaspersky is celebrating its 20th anniversary this year
+										3,000 highly qualified specialists5</p>
+								</div>
+								<div class="swiper-slide">
+									<img class="js-lazy" data-src="img/main/partners-image.svg" alt="partners image">
+									<p>Provides innovative IT security solutions for business and consumers
+										Founded in 1997, Kaspersky is celebrating its 20th anniversary this year
+										3,000 highly qualified specialists6</p>
+								</div>
+								<div class="swiper-slide">
+									<img class="js-lazy" data-src="img/main/partners-image.svg" alt="partners image">
+									<p>Provides innovative IT security solutions for business and consumers
+										Founded in 1997, Kaspersky is celebrating its 20th anniversary this year
+										3,000 highly qualified specialists7</p>
+								</div>
+								<div class="swiper-slide">
+									<img class="js-lazy" data-src="img/main/partners-image.svg" alt="partners image">
+									<p>Provides innovative IT security solutions for business and consumers
+										Founded in 1997, Kaspersky is celebrating its 20th anniversary this year
+										3,000 highly qualified specialists8</p>
+								</div>
+								<div class="swiper-slide">
+									<img class="js-lazy" data-src="img/main/partners-image.svg" alt="partners image">
+									<p>Provides innovative IT security solutions for business and consumers
+										Founded in 1997, Kaspersky is celebrating its 20th anniversary this year
+										3,000 highly qualified specialists9</p>
+								</div>
+								<div class="swiper-slide">
+									<img class="js-lazy" data-src="img/main/partners-image.svg" alt="partners image">
+									<p>Provides innovative IT security solutions for business and consumers
+										Founded in 1997, Kaspersky is celebrating its 20th anniversary this year
+										3,000 highly qualified specialists10</p>
+								</div>
+								<div class="swiper-slide">
+									<img class="js-lazy" data-src="img/main/partners-image.svg" alt="partners image">
+									<p>Provides innovative IT security solutions for business and consumers
+										Founded in 1997, Kaspersky is celebrating its 20th anniversary this year
+										3,000 highly qualified specialists11</p>
+								</div>
+							</div>
+						</div>
+						<div class="main-controls">
+							<button class="left-swipe"></button>
+							<button class="right-swipe"></button>
+						</div>
+						<a href="/partners.html" class="btn-wr">
+							<span>All partners</span>
+							<svg width="25" height="8" viewBox="0 0 25 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M24.3536 4.35355C24.5488 4.15829 24.5488 3.84171 24.3536 3.64645L21.1716 0.464466C20.9763 0.269204 20.6597 0.269204 20.4645 0.464466C20.2692 0.659728 20.2692 0.976311 20.4645 1.17157L23.2929 4L20.4645 6.82843C20.2692 7.02369 20.2692 7.34027 20.4645 7.53553C20.6597 7.7308 20.9763 7.7308 21.1716 7.53553L24.3536 4.35355ZM0 4.5H24V3.5H0V4.5Z" />
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+	<!-- END content -->
+
+	<!-- Begin footer -->
+	<footer class="footer">
+		<div class="footer__inner">
+			<div class="footer__logo">
+				<a href="/">
+					<div class="icon-union"></div>
+					<div class="icon-logo"></div>
+				</a>
+			</div>
+			<div class="footer__menu">
+				<ul>
+					<li><a href="faq.html">Q&A</a></li>
+					<li><a href="about.html">About us</a></li>
+					<li><a href="team.html">Team</a></li>
+					<li><a href="policy.html">Legal</a></li>
+					<li><a href="policy.html">Privacy Policy</a></li>
+					<li><a href="policy.html">License Agreement</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	</footer>
+	<!-- End footer -->
+
+	<!-- Begin popups -->
+	<div data-animate="true" class="contact-popup popup">
+		<div class="contact-popup__inner">
+			<div data-animation-name="sUp" class="contact-popup__form">
+				<button class="close-popup js-close-popup"><span></span><span></span></button>
+				<h4>If you’are interested in working
+					or collaborating with us please contact us</h4>
+				<form action="" class="form__fields" id="form-contacts-popup">
+					<div class="form__fields--short">
+						<div class="form__fields--item input-field">
+							<label for="user-name-popup">name</label>
+							<input id="user-name-popup" type="text" class="validate-global" name="name" autocomplete="off">
+						</div>
+						<div class="form__fields--item input-field">
+							<label for="user-email-popup">e-mail</label>
+							<input id="user-email-popup" type="text" class="validate-email" name="email" autocomplete="off">
+						</div>
+					</div>
+					<div class="form__fields--long input-field">
+						<label for="user-message-popup">message</label>
+						<textarea id="user-message-popup" name="user-message" class="" rows="2" autocomplete="off"></textarea>
+					</div>
+					<div class="form__fields--long input-field">
+						<button type="submit">get started</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup thanks-popup" data-animate="true">
+		<div class="container">
+			<div class="thanks-popup__inner" data-animation-name="sUp">
+				<button class="close-popup js-close-popup"><span></span><span></span></button>
+				<div class="thanks-popup__inner--text">
+					<h4 class="js-popup-title">Thank you
+						for contacting us!</h4>
+					<p class="js-popup-text">Your message has been successfully sent.
+						One of our colleagues will get back to you shortly. Have a great day!</p>
+				</div>
+				<div class="thanks-popup__inner--btn">
+					<button class="js-close-popup">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<button class="hideTrigger js-open-p" data-open="thanks-popup"></button>
+	<!-- End popups -->
+
+	<!-- BEGIN scripts -->
+	<script type="text/javascript" src="js/app.js"></script>
+	<!-- END scripts -->
+
+</body>
+
+</html>

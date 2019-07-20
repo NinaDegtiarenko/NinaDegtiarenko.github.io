@@ -1,0 +1,529 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Verisium</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#fff">
+	<meta name="format-detection" content="telephone=no">
+
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16" />
+	<meta name="msapplication-TileColor" content="#FFFFFF" />
+
+	<link rel="stylesheet" media="all" href="css/app.css">
+</head>
+
+<body>
+
+	<script>
+		var mainB = document.querySelector('body');
+		mainB.style.marginRight = (window.innerWidth - mainB.offsetWidth) + "px";
+		mainB.style.overflow = "hidden";
+	</script>
+
+	<div class="preloader">
+		<svg id="logoSvg" width="406" height="287" viewBox="0 0 406 287" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path class="draw-ordinary"
+				d="M2 1H162.683L274.689 265.292L315.006 173.583L279.161 87.2917L243.317 1H404L284.342 286H122.658L2 1Z"
+				stroke="#DADADA" stroke-width="2" />
+			<path class="draw-main"
+				d="M2 1H162.683L274.689 265.292L315.006 173.583L279.161 87.2917L243.317 1H404L284.342 286H122.658L2 1Z"
+				stroke="#FF634E" stroke-width="2" stroke-dashoffset="0" style="opacity: 0;" />
+		</svg>
+	</div>
+
+	<!-- Begin Header -->
+	<header class="header">
+		<div class="header__inner">
+			<div class="header__logo">
+				<a href="/">
+					<div class="icon-union"></div>
+					<div class="icon-logo"></div>
+				</a>
+			</div>
+			<input type="checkbox" name="burger-menu" id="toggle-nav" class="header__hamburger--nav">
+			<div class="header__menu">
+				<nav>
+					<ul>
+						<li><a href="fields.html">Fields of use</a></li>
+						<li><a href="pricing.html">Pricing</a></li>
+						<li><a href="about.html">About us</a></li>
+						<li><a href="technologies.html">Technologies</a></li>
+						<li><a href="contacts.html">Contact us</a></li>
+					</ul>
+				</nav>
+				<select name="lang_choice_1" id="lang_choice_1">
+					<option value="en" selected="selected">En</option>
+					<option value="ru">Ru</option>
+				</select>
+				<button class="header__btn js-open-p" data-open="contact-popup">get started</button>
+				<div class="header__socials">
+					<a href="https://www.facebook.com/verisium/" target="_blank" class="header__socials--item icon-facebook"></a>
+					<a href="https://twitter.com/verisium/" target="_blank" class="header__socials--item icon-twitter"></a>
+					<a href="https://www.linkedin.com/company/verisium/" target="_blank"
+						class="header__socials--item icon-linkedin"></a>
+					<a href="https://www.instagram.com/verisium/" target="_blank"
+						class="header__socials--item icon-instagram"></a>
+				</div>
+			</div>
+			<label for="toggle-nav" class="header__hamburger--label js-hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</label>
+		</div>
+	</header>
+	<!-- End Header -->
+
+
+	<!-- Begin content -->
+	<main>
+
+		<section class="intro-anti fields-intro">
+			<div class="container">
+
+				<a href="/fields" class="back__link">
+					<img src="img/back--black.svg" alt="">
+					<span>back</span>
+				</a>
+				<div class="intro-anti__inner">
+
+					<div class="intro-anti__text fields-intro--text">
+						<h1>Anti–counterfeit system</h1>
+						<p>based on RFID and Blockchain technology</p>
+					</div>
+
+					<div class="intro-anti__image fields-intro__image">
+						<img class="js-lazy" data-src="img/main/anti-image.png" alt="Anti-counterfeit image">
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+
+		<section class="description">
+			<div class="container">
+				<div class="description__title">
+					<h2>Counterfeiting destroys brand equity and leads to lost sales</h2>
+				</div>
+				<div class="description__text">
+					<p>We believe that counterfeiting is a disease. Like many diseases, it can be dealt with – once and for all.
+						With Verisium, counterfeiters have no chance to present their fakes as genuine products. Verisium is built
+						in a way that makes forging a tag next to IMPOSSIBLE and economically IMPRACTICAL. Product authenticity is
+						verified at many stages, culminating in blockchain entry verification. Even if a perfect clone of a chip is
+						made, it is recognized as a fake immediately.</p>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="anti__commun">
+			<div class="container">
+				<div class="anti__commun--title">
+					<h3>Communicate to your customers through products</h3>
+				</div>
+				<div class="anti__commun--text">
+					<p>Verisium Platform allows you to build a fully custom, media-rich product card that users see when they
+						scan the chip. Implement breathtaking digital scenarios – while your real-world product stays in focus</p>
+					<p>When the brand-to-user connection is made, customer gets to know you better – and vice versa. With
+						Verisium you can measure not only sales, as most brands do, but also pre- and post-sale product
+						interactions. You also get to know your users – what their devices are, what other products from you and
+						other brands they are interested in and consider buying. With geo-reports, you can easily see the how
+						your products take over the world.</p>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="scan anti">
+			<div class="container">
+				<h3>Scan data flows</h3>
+
+				<div class="scan__list">
+
+					<div class="scan__item">
+						<span class="seperated"></span>
+						<div class="scan__item--image">
+							<img class="js-lazy" data-src="img/anti/scan-icon-1.svg" alt="Scan image">
+						</div>
+						<p>Physical tag</p>
+					</div>
+
+
+
+					<div class="scan__item">
+						<span class="seperated"></span>
+						<div class="scan__item--image">
+							<img class="js-lazy" data-src="img/anti/scan-icon-2.svg" alt="Scan image">
+						</div>
+						<p>Database</p>
+					</div>
+
+
+
+
+					<div class="scan__item">
+						<span class="seperated"></span>
+						<div class="scan__item--image">
+							<img class="js-lazy" data-src="img/anti/scan-icon-3.svg" alt="Scan image">
+						</div>
+						<p>Analysis module</p>
+					</div>
+
+
+
+					<div class="scan__item">
+						<span class="seperated"></span>
+						<div class="scan__item--image">
+							<img class="js-lazy" data-src="img/anti/scan-icon-4.svg" alt="Scan image">
+						</div>
+						<p>Dashboard <br> Alerting Notifications</p>
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<section class="combination">
+			<div class="container">
+				<h3>Combination of RFID and Blockchain
+					technologies makes it impossible to
+					duplicate a tag</h3>
+
+				<div class="combination__list">
+
+					<div class="combination__item">
+						<div class="combination--image">
+							<img class="js-lazy" data-src="img/anti/circles.svg" alt="Combination image">
+						</div>
+						<div class="combination--text">
+							<b>Digital</b>
+							<p>An entry in the blockchain. On a <br> software level the blockchain guarantees data validity</p>
+						</div>
+					</div>
+
+					<div class="combination__item">
+						<div class="combination--image">
+							<img class="js-lazy" data-src="img/anti/comb-image-2.svg" alt="Combination image">
+						</div>
+						<div class="combination--text">
+							<b>Physical</b>
+							<p>NFC Tag inside an item. On a hardware level NFC tags are protected from copying using tamper-proof
+								features and cryptography</p>
+						</div>
+					</div>
+
+
+				</div>
+
+			</div>
+		</section>
+
+
+		<section class="alerting">
+			<div class="container">
+				<h3>Alerting Module</h3>
+				<p>Set up rules to receive notifications for certain events</p>
+				<div class="alerting__list">
+
+					<div class="alerting__item">
+						<h4>Minor issue</h4>
+						<ul>
+							<li>Incorrect logistic process</li>
+							<li>High volume of scans from one code</li>
+							<li>Custom rules</li>
+						</ul>
+						<img class="js-lazy" data-src="img/anti/alert-icon-1.svg" alt="Alert icon">
+					</div>
+					<div class="alerting__item">
+						<h4>Critical issue</h4>
+						<ul>
+							<li>Fake detected</li>
+							<li>Massive scans from one code</li>
+							<li>Custom rules</li>
+						</ul>
+						<img class="js-lazy" data-src="img/anti/alert-icon-2.svg" alt="Alert icon">
+					</div>
+					<div class="alerting__item">
+						<h4>Notification</h4>
+						<ul>
+							<li>First 100 scans by product</li>
+							<li>Trends</li>
+							<li>Custom rules</li>
+						</ul>
+						<img class="js-lazy" data-src="img/anti/alert-icon-3.svg" alt="Alert icon">
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section>
+			<div class="container">
+				<div class="marketing__show">
+					<h3 class="marketing__show-title">What you<br> can show</h3>
+
+					<div class="marketing__show-tabs">
+						<div class="marketing__show-thumb">
+							<div class="marketing__show-image _product _active">
+								<img data-src="img/clock.png" alt="" class="marketing__show-img js-lazy">
+								<img data-src="img/shadow-clock.png" alt="" class="marketing__show-shadow js-lazy">
+							</div>
+							<div class="marketing__show-image _media" style="display: none">
+								<img data-src="img/camera.png" alt="" class="marketing__show-img js-lazy">
+								<img data-src="img/shadow-camera.png" alt="" class="marketing__show-shadow js-lazy">
+							</div>
+							<div class="marketing__show-image _updates" style="display: none">
+								<img data-src="img/updates.png" alt="" class="marketing__show-img js-lazy">
+								<img data-src="img/shadow-updates.png" alt="" class="marketing__show-shadow js-lazy">
+							</div>
+							<span class="marketing__show-dot _first"></span>
+							<span class="marketing__show-dot _second"></span>
+							<span class="marketing__show-dot _third"></span>
+							<span class="marketing__show-bg"></span>
+						</div>
+						<ul class="marketing__show-nav">
+							<li class="marketing__show-nav-item _active">
+								<span class="marketing__show-nav-name" data-show="product">Product information</span>
+
+								<ul class="marketing__show-nav-subnav">
+									<li class="marketing__show-nav-subitem">Materials</li>
+									<li class="marketing__show-nav-subitem">Product idea</li>
+									<li class="marketing__show-nav-subitem">Treatment and usage</li>
+									<li class="marketing__show-nav-subitem">Service centres</li>
+								</ul>
+							</li>
+							<li class="marketing__show-nav-item">
+								<span class="marketing__show-nav-name" data-show="media">Media content</span>
+
+								<ul class="marketing__show-nav-subnav" style="display: none">
+									<li class="marketing__show-nav-subitem">Video</li>
+									<li class="marketing__show-nav-subitem">Pictures</li>
+									<li class="marketing__show-nav-subitem">Where to buy</li>
+									<li class="marketing__show-nav-subitem">Music</li>
+								</ul>
+							</li>
+							<li class="marketing__show-nav-item">
+								<span class="marketing__show-nav-name" data-show="updates">Dynamic updates</span>
+
+								<ul class="marketing__show-nav-subnav" style="display: none">
+									<li class="marketing__show-nav-subitem">Sport events and statistics</li>
+									<li class="marketing__show-nav-subitem">Tickets to private events</li>
+									<li class="marketing__show-nav-subitem">Brand news and show invitations</li>
+									<li class="marketing__show-nav-subitem">Concerts invintations and videos  from backstage</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="marketing__where">
+				<div class="container">
+					<div class="marketing__where-row">
+						<div class="marketing__where-main">
+							<h4 class="marketing__where-title">See where, when and which products were scanned</h4>
+							<p class="marketing__where-description">You know what your customers buy. But do you know what they are
+								looking at? With Verisium you can get an accurate portrait of people who browse and scan your goods</p>
+						</div>
+						<div class="marketing__where-map">
+							<img class="js-lazy" data-src="img/map-frame.svg" alt="">
+
+							<img src="img/map-product1.png" alt="" class="marketing__where-product-1 js-lazy">
+							<img src="img/map-product2.png" alt="" class="marketing__where-product-2 js-lazy">
+							<img src="img/map-product3.png" alt="" class="marketing__where-product-3 js-lazy">
+						</div>
+					</div>
+					<div class="marketing__where-row">
+						<div class="marketing__where-thumb">
+							<img data-src="img/marketing/phone.png" alt="" class="marketing__where-thumb-1 js-lazy">
+							<img data-src="img/scan&buy-2.png" alt="" class="marketing__where-thumb-2 js-lazy">
+
+							<button class="header__btn js-open-p" data-open="contact-popup">get started</button>
+						</div>
+						<div class="marketing__where-info">
+							<h4 class="marketing__where-title">Scan & Buy</h4>
+							<p class="marketing__where-description">ADDITIONAL SALES CHANNEL – when a person scans the product he can
+								buy it with one tap through ecommerce integration</p>
+							<button class="header__btn js-open-p" data-open="contact-popup">get started</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="marketing__targeted">
+				<div class="container marketing__targeted-container" data-slider>
+					<div class="marketing__targeted-col">
+						<span class="marketing__targeted-title">Personalized targeted advertisements</span>
+					</div>
+					<div class="marketing__targeted-thumb" data-slides>
+						<span class="item">
+							<img data-src="img/marketing/targeted1.svg" alt="" class="marketing__targeted-img js-lazy">
+						</span>
+						<span class="item">
+							<img data-src="img/marketing/targeted2.svg" alt="" class="marketing__targeted-img js-lazy">
+						</span>
+						<span class="item">
+							<img data-src="img/marketing/targeted3.svg" alt="" class="marketing__targeted-img js-lazy">
+						</span>
+					</div>
+					<div class="marketing__targeted-dots" data-nav>
+						<span class="marketing__targeted-dot">
+							<span class="marketing__targeted-icon"></span>
+							<span class="marketing__targeted-line"></span>
+							<span class="marketing__targeted-name">Who scanned this  <br>particular product</span>
+						</span>
+						<span class="marketing__targeted-dot">
+							<span class="marketing__targeted-icon"></span>
+							<span class="marketing__targeted-line"></span>
+							<span class="marketing__targeted-name">How many times the  <br>person scanned the product</span>
+						</span>
+						<span class="marketing__targeted-dot">
+							<span class="marketing__targeted-icon"></span>
+							<span class="marketing__targeted-line"></span>
+							<span class="marketing__targeted-name">Region</span>
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="marketing__technology">
+				<div class="container">
+					<div class="marketing__technology-left">
+						<span class="marketing__technology-title">NFC Technology is a new <br>way to communicate with physical
+							objects</span>
+					</div>
+					<div class="marketing__technology-right">
+						<img data-src="img/marketing/tech1.png" alt=""
+							class="marketing__technology-img marketing__technology-img--center js-lazy">
+						<img data-src="img/marketing/tech2.png" alt="" class="marketing__technology-img js-lazy">
+						<img data-src="img/marketing/tech3.png" alt="" class="marketing__technology-img js-lazy">
+						<img data-src="img/marketing/tech4.png" alt="" class="marketing__technology-img js-lazy">
+					</div>
+				</div>
+			</div>
+
+			<div class="marketing__dignity">
+				<div class="container">
+					<div class="marketing__dignity-item">
+						<div class="marketing__dignity-img">
+							<img class="js-lazy" data-src="img/marketing/icon1.svg" alt="">
+						</div>
+						<span class="marketing__dignity-title">Used in Paypass, Apple pay, Google Pay</span>
+					</div>
+					<div class="marketing__dignity-item">
+						<div class="marketing__dignity-img">
+							<img class="js-lazy" data-src="img/marketing/icon2.svg" alt="">
+						</div>
+						<span class="marketing__dignity-title">Reading distance</span>
+					</div>
+					<div class="marketing__dignity-item">
+						<div class="marketing__dignity-img">
+							<img class="js-lazy" data-src="img/marketing/icon3.svg" alt="">
+						</div>
+						<span class="marketing__dignity-title">The most easy secure way to authenticate a product</span>
+					</div>
+					<div class="marketing__dignity-item">
+						<div class="marketing__dignity-img">
+							<img class="js-lazy" data-src="img/marketing/icon4.svg" alt="">
+						</div>
+						<span class="marketing__dignity-title">NFC tags can be a part  of your product</span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+	</main>
+
+	<!-- End content -->
+
+	<!-- Begin footer -->
+	<footer class="footer">
+		<div class="footer__inner">
+			<div class="footer__logo">
+				<a href="/">
+					<div class="icon-union"></div>
+					<div class="icon-logo"></div>
+				</a>
+			</div>
+			<div class="footer__menu">
+				<ul>
+					<li><a href="faq.html">Q&A</a></li>
+					<li><a href="about.html">About us</a></li>
+					<li><a href="team.html">Team</a></li>
+					<li><a href="policy.html">Legal</a></li>
+					<li><a href="policy.html">Privacy Policy</a></li>
+					<li><a href="policy.html">License Agreement</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<!-- End footer -->
+
+	<!-- Begin popups -->
+	<div data-animate="true" class="contact-popup popup">
+		<div class="contact-popup__inner">
+			<div data-animation-name="sUp" class="contact-popup__form">
+				<button class="close-popup js-close-popup"><span></span><span></span></button>
+				<h4>If you’are interested in working
+					or collaborating with us please contact us</h4>
+				<form action="" class="form__fields" id="form-contacts-popup">
+					<div class="form__fields--short">
+						<div class="form__fields--item input-field">
+							<label for="user-name-popup">name</label>
+							<input id="user-name-popup" type="text" class="validate-global" name="name" autocomplete="off">
+						</div>
+						<div class="form__fields--item input-field">
+							<label for="user-email-popup">e-mail</label>
+							<input id="user-email-popup" type="text" class="validate-email" name="email" autocomplete="off">
+						</div>
+					</div>
+					<div class="form__fields--long input-field">
+						<label for="user-message-popup">message</label>
+						<textarea id="user-message-popup" name="user-message" class="" rows="2" autocomplete="off"></textarea>
+					</div>
+					<div class="form__fields--long input-field">
+						<button type="submit">get started</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup thanks-popup" data-animate="true">
+		<div class="container">
+			<div class="thanks-popup__inner" data-animation-name="sUp">
+				<button class="close-popup js-close-popup"><span></span><span></span></button>
+				<div class="thanks-popup__inner--text">
+					<h4 class="js-popup-title">Thank you
+						for contacting us!</h4>
+					<p class="js-popup-text">Your message has been successfully sent.
+						One of our colleagues will get back to you shortly. Have a great day!</p>
+				</div>
+				<div class="thanks-popup__inner--btn">
+					<button class="js-close-popup">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<button class="hideTrigger js-open-p" data-open="thanks-popup"></button>
+	<!-- End popups -->
+
+	<!-- Begin scripts -->
+
+	<script type="text/javascript" src="js/app.js"></script>
+
+	<!-- End scripts -->
+
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+<svg width="1440" height="800" viewBox="0 0 1440 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.23">
+<line opacity="0.7" x1="1" y1="257" x2="1439" y2="257" stroke="#181818" stroke-width="2" stroke-linecap="round" stroke-dasharray="0.1 10"/>
+<line opacity="0.7" x1="1" y1="541" x2="1439" y2="541" stroke="#181818" stroke-width="2" stroke-linecap="round" stroke-dasharray="0.1 10"/>
+<line opacity="0.7" x1="320.312" y1="-215.865" x2="883.924" y2="1107.08" stroke="#181818" stroke-width="2" stroke-linecap="round" stroke-dasharray="0.1 10"/>
+<line opacity="0.7" x1="479.312" y1="-215.865" x2="1042.92" y2="1107.08" stroke="#181818" stroke-width="2" stroke-linecap="round" stroke-dasharray="0.1 10"/>
+<line opacity="0.7" x1="638.312" y1="-215.865" x2="1201.92" y2="1107.08" stroke="#181818" stroke-width="2" stroke-linecap="round" stroke-dasharray="0.1 10"/>
+<line opacity="0.7" x1="1" y1="-1" x2="1439" y2="-1" transform="matrix(-0.391941 0.91999 0.91999 0.391941 1125.39 -216.393)" stroke="#181818" stroke-width="2" stroke-linecap="round" stroke-dasharray="0.1 10"/>
+<line opacity="0.7" x1="1" y1="-1" x2="1439" y2="-1" transform="matrix(-0.391941 0.91999 0.91999 0.391941 966.395 -216.393)" stroke="#181818" stroke-width="2" stroke-linecap="round" stroke-dasharray="0.1 10"/>
+<line opacity="0.7" x1="1" y1="-1" x2="1439" y2="-1" transform="matrix(-0.391941 0.91999 0.91999 0.391941 807.395 -216.393)" stroke="#181818" stroke-width="2" stroke-linecap="round" stroke-dasharray="0.1 10"/>
+</g>
+</svg>

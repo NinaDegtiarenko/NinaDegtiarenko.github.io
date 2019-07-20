@@ -1,0 +1,315 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Blog</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#fff">
+	<meta name="format-detection" content="telephone=no">
+
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16" />
+	<meta name="msapplication-TileColor" content="#FFFFFF" />
+
+
+	<link rel="stylesheet" media="all" href="css/app.css">
+</head>
+
+
+
+<body class="main-page">
+
+	<script>
+		var mainB = document.querySelector('body');
+		mainB.style.marginRight = (window.innerWidth - mainB.offsetWidth) + "px";
+		mainB.style.overflow = "hidden";
+	</script>
+
+	<div class="preloader">
+		<svg id="logoSvg" width="406" height="287" viewBox="0 0 406 287" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path class="draw-ordinary"
+				d="M2 1H162.683L274.689 265.292L315.006 173.583L279.161 87.2917L243.317 1H404L284.342 286H122.658L2 1Z"
+				stroke="#DADADA" stroke-width="2" />
+			<path class="draw-main"
+				d="M2 1H162.683L274.689 265.292L315.006 173.583L279.161 87.2917L243.317 1H404L284.342 286H122.658L2 1Z"
+				stroke="#FF634E" stroke-width="2" stroke-dashoffset="0" style="opacity: 0;" />
+		</svg>
+	</div>
+
+	<!-- Begin Header -->
+	<header class="header">
+		<div class="header__inner">
+			<div class="header__logo">
+				<a href="/">
+					<div class="icon-union"></div>
+					<div class="icon-logo"></div>
+				</a>
+			</div>
+			<input type="checkbox" name="burger-menu" id="toggle-nav" class="header__hamburger--nav">
+			<div class="header__menu">
+				<nav>
+					<ul>
+						<li><a href="fields.html">Fields of use</a></li>
+						<li><a href="pricing.html">Pricing</a></li>
+						<li><a href="about.html">About us</a></li>
+						<li><a href="technologies.html">Technologies</a></li>
+						<li><a href="contacts.html">Contact us</a></li>
+					</ul>
+				</nav>
+				<select name="lang_choice_1" id="lang_choice_1">
+					<option value="en" selected="selected">En</option>
+					<option value="ru">Ru</option>
+				</select>
+				<button class="header__btn js-open-p" data-open="contact-popup">get started</button>
+				<div class="header__socials">
+					<a href="https://www.facebook.com/verisium/" target="_blank" class="header__socials--item icon-facebook"></a>
+					<a href="https://twitter.com/verisium/" target="_blank" class="header__socials--item icon-twitter"></a>
+					<a href="https://www.linkedin.com/company/verisium/" target="_blank"
+						class="header__socials--item icon-linkedin"></a>
+					<a href="https://www.instagram.com/verisium/" target="_blank"
+						class="header__socials--item icon-instagram"></a>
+				</div>
+			</div>
+			<label for="toggle-nav" class="header__hamburger--label js-hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</label>
+		</div>
+	</header>
+	<!-- End Header -->
+
+
+	<!-- Begin content -->
+	<main class="blog__wrapp">
+		<section class="blog__intro">
+			<div class="container">
+				<a href="/about" class="back__link">
+					<img src="img/back--black.svg" alt="">
+					<span>back</span>
+				</a>
+				<h1>Blog</h1>
+			</div>
+			<div class="blog__intro--bg"></div>
+		</section>
+
+
+		<section class="blog__list--posts">
+
+			<div class="blog__year">
+				<div class="container">
+					<div class="blog__year--name">
+						<p>2018</p>
+					</div>
+					<div class="blog__year--list">
+
+						<!-- Список постов за опред. год -->
+						<div class="blog__item">
+							<div class="blog__item--date">Oct 13</div>
+							<div class="blog__item--title"><a href="" class="js-hovered">Android NFC Guide</a></div>
+							<div class="blog__item--thumbnail js-thumb" style="background-image: url('img/blog/blog-thumbnail.png')">
+							</div>
+						</div>
+
+						<div class="blog__item">
+							<div class="blog__item--date">Oct 14</div>
+							<div class="blog__item--title"><a href="" class="js-hovered">How IoT Solves Content Marketing
+									Challenges</a></div>
+							<div class="blog__item--thumbnail js-thumb" style="background-image: url('img/blog/blog-thumbnail.png')">
+							</div>
+						</div>
+
+						<div class="blog__item">
+							<div class="blog__item--date">Oct 15</div>
+							<div class="blog__item--title"><a href="" class="js-hovered">Top 10 NFC Products of 2018</a></div>
+							<div class="blog__item--thumbnail js-thumb" style="background-image: url('img/blog/blog-thumbnail.png')">
+							</div>
+						</div>
+
+						<div class="blog__item">
+							<div class="blog__item--date">Oct 16</div>
+							<div class="blog__item--title"><a href="" class="js-hovered">Here we explore what possibilities NFC
+									creates.</a></div>
+							<div class="blog__item--thumbnail js-thumb" style="background-image: url('img/blog/blog-thumbnail.png')">
+							</div>
+						</div>
+
+						<div class="blog__item">
+							<div class="blog__item--date">Oct 17</div>
+							<div class="blog__item--title"><a href="" class="js-hovered">What can NFC do?</a></div>
+							<div class="blog__item--thumbnail js-thumb" style="background-image: url('img/blog/blog-thumbnail.png')">
+							</div>
+						</div>
+
+						<div class="blog__item">
+							<div class="blog__item--date">Oct 18</div>
+							<div class="blog__item--title"><a href="" class="js-hovered">You asked, we listened. Our latest
+									update.</a></div>
+							<div class="blog__item--thumbnail js-thumb" style="background-image: url('img/blog/blog-thumbnail.png')">
+							</div>
+						</div>
+
+						<div class="blog__item">
+							<div class="blog__item--date">Nov 13</div>
+							<div class="blog__item--title"><a href="" class="js-hovered">Android NFC Guide</a></div>
+							<div class="blog__item--thumbnail js-thumb" style="background-image: url('img/blog/blog-thumbnail.png')">
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="blog__year">
+				<div class="container">
+					<div class="blog__year--name">
+						<p>2017</p>
+					</div>
+					<div class="blog__year--list">
+
+						<!-- Список постов за опред. год -->
+						<div class="blog__item">
+							<div class="blog__item--date">Oct 13</div>
+							<div class="blog__item--title"><a href="" class="js-hovered">Android NFC Guide</a></div>
+							<div class="blog__item--thumbnail js-thumb" style="background-image: url('img/blog/blog-thumbnail.png')">
+							</div>
+						</div>
+
+						<div class="blog__item">
+							<div class="blog__item--date">Oct 14</div>
+							<div class="blog__item--title"><a href="" class="js-hovered">How IoT Solves Content Marketing
+									Challenges</a></div>
+							<div class="blog__item--thumbnail js-thumb" style="background-image: url('img/blog/blog-thumbnail.png')">
+							</div>
+						</div>
+
+						<div class="blog__item">
+							<div class="blog__item--date">Oct 15</div>
+							<div class="blog__item--title"><a href="" class="js-hovered">Top 10 NFC Products of 2018</a></div>
+							<div class="blog__item--thumbnail js-thumb" style="background-image: url('img/blog/blog-thumbnail.png')">
+							</div>
+						</div>
+
+						<div class="blog__item">
+							<div class="blog__item--date">Oct 16</div>
+							<div class="blog__item--title"><a href="" class="js-hovered">Here we explore what possibilities NFC
+									creates.</a></div>
+							<div class="blog__item--thumbnail js-thumb" style="background-image: url('img/blog/blog-thumbnail.png')">
+							</div>
+						</div>
+
+						<div class="blog__item">
+							<div class="blog__item--date">Oct 17</div>
+							<div class="blog__item--title"><a href="" class="js-hovered">What can NFC do?</a></div>
+							<div class="blog__item--thumbnail js-thumb" style="background-image: url('img/blog/blog-thumbnail.png')">
+							</div>
+						</div>
+
+						<div class="blog__item">
+							<div class="blog__item--date">Oct 18</div>
+							<div class="blog__item--title"><a href="" class="js-hovered">You asked, we listened. Our latest
+									update.</a></div>
+							<div class="blog__item--thumbnail js-thumb" style="background-image: url('img/blog/blog-thumbnail.png')">
+							</div>
+						</div>
+
+						<div class="blog__item">
+							<div class="blog__item--date">Nov 13</div>
+							<div class="blog__item--title"><a href="" class="js-hovered">Android NFC Guide</a></div>
+							<div class="blog__item--thumbnail js-thumb" style="background-image: url('img/blog/blog-thumbnail.png')">
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+
+		</section>
+	</main>
+
+	<!-- End content -->
+
+	<!-- Begin footer -->
+	<footer class="footer">
+		<div class="footer__inner">
+			<div class="footer__logo">
+				<a href="/">
+					<div class="icon-union"></div>
+					<div class="icon-logo"></div>
+				</a>
+			</div>
+			<div class="footer__menu">
+				<ul>
+					<li><a href="faq.html">Q&A</a></li>
+					<li><a href="about.html">About us</a></li>
+					<li><a href="team.html">Team</a></li>
+					<li><a href="policy.html">Legal</a></li>
+					<li><a href="policy.html">Privacy Policy</a></li>
+					<li><a href="policy.html">License Agreement</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<!-- End footer -->
+
+	<!-- Begin popups -->
+	<div data-animate="true" class="contact-popup popup">
+		<div class="contact-popup__inner">
+			<div data-animation-name="sUp" class="contact-popup__form">
+				<button class="close-popup js-close-popup"><span></span><span></span></button>
+				<h4>If you’are interested in working
+					or collaborating with us please contact us</h4>
+				<form action="" class="form__fields" id="form-contacts-popup">
+					<div class="form__fields--short">
+						<div class="form__fields--item input-field">
+							<label for="user-name-popup">name</label>
+							<input id="user-name-popup" type="text" class="validate-global" name="name" autocomplete="off">
+						</div>
+						<div class="form__fields--item input-field">
+							<label for="user-email-popup">e-mail</label>
+							<input id="user-email-popup" type="text" class="validate-email" name="email" autocomplete="off">
+						</div>
+					</div>
+					<div class="form__fields--long input-field">
+						<label for="user-message-popup">message</label>
+						<textarea id="user-message-popup" name="user-message" class="" rows="2" autocomplete="off"></textarea>
+					</div>
+					<div class="form__fields--long input-field">
+						<button type="submit">get started</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup thanks-popup" data-animate="true">
+		<div class="container">
+			<div class="thanks-popup__inner" data-animation-name="sUp">
+				<button class="close-popup js-close-popup"><span></span><span></span></button>
+				<div class="thanks-popup__inner--text">
+					<h4 class="js-popup-title">Thank you
+						for contacting us!</h4>
+					<p class="js-popup-text">Your message has been successfully sent.
+						One of our colleagues will get back to you shortly. Have a great day!</p>
+				</div>
+				<div class="thanks-popup__inner--btn">
+					<button class="js-close-popup">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<button class="hideTrigger js-open-p" data-open="thanks-popup"></button>
+	<!-- End popups -->
+
+	<!-- Begin scripts -->
+	<script type="text/javascript" src="js/app.js"></script>
+	<!-- End scripts -->
+
+</body>
+
+</html>

@@ -1,0 +1,291 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Blockchain</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#fff">
+	<meta name="format-detection" content="telephone=no">
+
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16" />
+	<meta name="msapplication-TileColor" content="#FFFFFF" />
+
+	<link rel="stylesheet" media="all" href="css/app.css">
+</head>
+
+<body>
+
+	<script>
+		var mainB = document.querySelector('body');
+		mainB.style.marginRight = (window.innerWidth - mainB.offsetWidth) + "px";
+		mainB.style.overflow = "hidden";
+	</script>
+
+	<div class="preloader">
+		<svg id="logoSvg" width="406" height="287" viewBox="0 0 406 287" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path class="draw-ordinary"
+				d="M2 1H162.683L274.689 265.292L315.006 173.583L279.161 87.2917L243.317 1H404L284.342 286H122.658L2 1Z"
+				stroke="#DADADA" stroke-width="2" />
+			<path class="draw-main"
+				d="M2 1H162.683L274.689 265.292L315.006 173.583L279.161 87.2917L243.317 1H404L284.342 286H122.658L2 1Z"
+				stroke="#FF634E" stroke-width="2" stroke-dashoffset="0" style="opacity: 0;" />
+		</svg>
+	</div>
+
+	<!-- Begin Header -->
+	<header class="header">
+		<div class="header__inner">
+			<div class="header__logo">
+				<a href="/">
+					<div class="icon-union"></div>
+					<div class="icon-logo"></div>
+				</a>
+			</div>
+			<input type="checkbox" name="burger-menu" id="toggle-nav" class="header__hamburger--nav">
+			<div class="header__menu">
+				<nav>
+					<ul>
+						<li><a href="fields.html">Fields of use</a></li>
+						<li><a href="pricing.html">Pricing</a></li>
+						<li><a href="about.html">About us</a></li>
+						<li><a href="technologies.html">Technologies</a></li>
+						<li><a href="contacts.html">Contact us</a></li>
+					</ul>
+				</nav>
+				<select name="lang_choice_1" id="lang_choice_1">
+					<option value="en" selected="selected">En</option>
+					<option value="ru">Ru</option>
+				</select>
+				<button class="header__btn js-open-p" data-open="contact-popup">get started</button>
+				<div class="header__socials">
+					<a href="https://www.facebook.com/verisium/" target="_blank" class="header__socials--item icon-facebook"></a>
+					<a href="https://twitter.com/verisium/" target="_blank" class="header__socials--item icon-twitter"></a>
+					<a href="https://www.linkedin.com/company/verisium/" target="_blank"
+						class="header__socials--item icon-linkedin"></a>
+					<a href="https://www.instagram.com/verisium/" target="_blank"
+						class="header__socials--item icon-instagram"></a>
+				</div>
+			</div>
+			<label for="toggle-nav" class="header__hamburger--label js-hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</label>
+		</div>
+	</header>
+	<!-- End Header -->
+
+
+	<!-- Begin content -->
+	<main class="blockchain tech">
+
+
+		<section class="blockchain__intro">
+			<div class="container">
+				<a href="/technologies" class="back__link">
+					<svg width="39" height="8" viewBox="0 0 39 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M0.646446 3.64645C0.451183 3.84171 0.451183 4.15829 0.646446 4.35355L3.82843 7.53553C4.02369 7.7308 4.34027 7.7308 4.53553 7.53553C4.7308 7.34027 4.7308 7.02369 4.53553 6.82843L1.70711 4L4.53553 1.17157C4.7308 0.976311 4.7308 0.659728 4.53553 0.464466C4.34027 0.269204 4.02369 0.269204 3.82843 0.464466L0.646446 3.64645ZM39 3.5L1 3.5V4.5L39 4.5V3.5Z" />
+					</svg>
+					<span>back</span>
+				</a>
+				<div class="blockchain__intro--text">
+					<h1>Blockchain</h1>
+					<p>BLOCKCHAIN is a shared immutable ledger for recording the history of transactions that cannot be changed.
+						A private blockchain provides a permissioned network with known identities.</p>
+					<button class="js-open-p" data-open="contact-popup">get started</button>
+				</div>
+				<div class="blockchain__intro--image">
+					<img src="img/technologies/blockchain-1.png" alt="Blockchain image">
+					<img src="img/technologies/blockchain-2.png" alt="Blockchain image">
+					<button class="js-open-p" data-open="contact-popup">get started</button>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="tech__work">
+			<div class="container">
+				<div class="tech__work--left">
+					<h3>VERISIUM uses Quorum™
+						blockchain - an
+						enterprise-ready distributed ledger and a
+						smart contract platform developed
+						by
+						J.P.Morgan</h3>
+				</div>
+
+				<div class="tech__work--right">
+					<div class="tech__work--inner">
+						<h4>How blockchain work</h4>
+						<ul>
+							<li>
+								<p>As each transaction occurs, it’s put into a block.</p>
+							</li>
+							<li>
+								<p>Each block is connected to the one before and after it.</p>
+							</li>
+							<li>
+								<p>Transactions are blocked together.</p>
+							</li>
+							<li>
+								<p>Each block is added to the next in an irreversible chain.</p>
+							</li>
+							<li>
+								<p>To form a block, all the parties should come to a consensus on transactions</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="tech__work--bg"></div>
+			</div>
+		</section>
+
+
+		<section class="tech__what">
+			<div class="container">
+				<div class="tech__what--top">
+					<h3>What information is stored in blockchain</h3>
+					<div class="tech__what--inner">
+						<ul>
+							<li>
+								<p>CHIPS’ UID & TID storage</p>
+							</li>
+							<li>
+								<p>ASSOCIATION of product codes with UID/TIDs</p>
+							</li>
+							<li>
+								<p>LIST of original items with their statuses</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<h3 class="subtitile">What information is stored in blockchain</h3>
+				<div class="tech__what--list">
+					<div class="tech__what--item">
+
+						<div class="tech__what--image">
+							<img src="img/technologies/qr-code.png" alt="Stored image">
+						</div>
+						<h4>Distributed</h4>
+						<p>It works as a system of record that is shared among participants of the business network, eliminating
+							the need to reconcile disparate ledgers.</p>
+
+					</div>
+					<div class="tech__what--item">
+
+						<div class="tech__what--image">
+							<img src="img/technologies/qr-code.png" alt="Stored image">
+						</div>
+						<h4>Permissioned</h4>
+						<p>Each member of the network has access rights so that confdential information is
+							shared on a need-to-know basis.</p>
+
+					</div>
+					<div class="tech__what--item">
+
+
+						<div class="tech__what--image">
+							<img src="img/technologies/qr-code.png" alt="Stored image">
+						</div>
+						<h4>Secured</h4>
+						<p>Consensus is required from all network members and all validated transactions are permanently recorded.
+							No one, not even a system administrator, can delete information.</p>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+	</main>
+
+	<!-- End content -->
+
+	<!-- Begin footer -->
+	<footer class="footer footer--gray">
+		<div class="footer__inner">
+			<div class="footer__logo">
+				<a href="/">
+					<div class="icon-union"></div>
+					<div class="icon-logo"></div>
+				</a>
+			</div>
+			<div class="footer__menu">
+				<ul>
+					<li><a href="/faq.html">Q&A</a></li>
+					<li><a href="/about.html">About us</a></li>
+					<li><a href="/contacts.html">Contact us</a></li>
+					<li><a href="/technologies.html">Legal</a></li>
+					<li><a href="/policy.html">Privacy Policy</a></li>
+					<li><a href="/license.html">License Agreement</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<!-- End footer -->
+
+	<!-- Begin popups -->
+	<div data-animate="true" class="contact-popup popup">
+		<div class="contact-popup__inner">
+			<div data-animation-name="sUp" class="contact-popup__form">
+				<button class="close-popup js-close-popup"><span></span><span></span></button>
+				<h4>If you’are interested in working
+					or collaborating with us please contact us</h4>
+				<form action="" class="form__fields" id="form-contacts-popup">
+					<div class="form__fields--short">
+						<div class="form__fields--item input-field">
+							<label for="user-name-popup">name</label>
+							<input id="user-name-popup" type="text" class="validate-global" name="name" autocomplete="off">
+						</div>
+						<div class="form__fields--item input-field">
+							<label for="user-email-popup">e-mail</label>
+							<input id="user-email-popup" type="text" class="validate-email" name="email" autocomplete="off">
+						</div>
+					</div>
+					<div class="form__fields--long input-field">
+						<label for="user-message-popup">message</label>
+						<textarea id="user-message-popup" name="user-message" class="" rows="2" autocomplete="off"></textarea>
+					</div>
+					<div class="form__fields--long input-field">
+						<button type="submit">get started</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup thanks-popup" data-animate="true">
+		<div class="container">
+			<div class="thanks-popup__inner" data-animation-name="sUp">
+				<button class="close-popup js-close-popup"><span></span><span></span></button>
+				<div class="thanks-popup__inner--text">
+					<h4 class="js-popup-title">Thank you
+						for contacting us!</h4>
+					<p class="js-popup-text">Your message has been successfully sent.
+						One of our colleagues will get back to you shortly. Have a great day!</p>
+				</div>
+				<div class="thanks-popup__inner--btn">
+					<button class="js-close-popup">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<button class="hideTrigger js-open-p" data-open="thanks-popup"></button>
+	<!-- End popups -->
+
+	<!-- Begin scripts -->
+
+	<script type="text/javascript" src="js/app.js"></script>
+
+	<!-- End scripts -->
+
+</body>
+
+</html>

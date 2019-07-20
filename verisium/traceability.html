@@ -1,0 +1,560 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Verisium</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#fff">
+	<meta name="format-detection" content="telephone=no">
+
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16" />
+	<meta name="msapplication-TileColor" content="#FFFFFF" />
+
+
+	<link rel="stylesheet" media="all" href="css/app.css">
+</head>
+
+<body>
+
+	<script>
+		var mainB = document.querySelector('body');
+		mainB.style.marginRight = (window.innerWidth - mainB.offsetWidth) + "px";
+		mainB.style.overflow = "hidden";
+	</script>
+
+	<div class="preloader">
+		<svg id="logoSvg" width="406" height="287" viewBox="0 0 406 287" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path class="draw-ordinary"
+				d="M2 1H162.683L274.689 265.292L315.006 173.583L279.161 87.2917L243.317 1H404L284.342 286H122.658L2 1Z"
+				stroke="#DADADA" stroke-width="2" />
+			<path class="draw-main"
+				d="M2 1H162.683L274.689 265.292L315.006 173.583L279.161 87.2917L243.317 1H404L284.342 286H122.658L2 1Z"
+				stroke="#FF634E" stroke-width="2" stroke-dashoffset="0" style="opacity: 0;" />
+		</svg>
+	</div>
+
+	<!-- Begin Header -->
+	<header class="header">
+		<div class="header__inner">
+			<div class="header__logo">
+				<a href="/">
+					<div class="icon-union"></div>
+					<div class="icon-logo"></div>
+				</a>
+			</div>
+			<input type="checkbox" name="burger-menu" id="toggle-nav" class="header__hamburger--nav">
+			<div class="header__menu">
+				<nav>
+					<ul>
+						<li><a href="fields.html">Fields of use</a></li>
+						<li><a href="pricing.html">Pricing</a></li>
+						<li><a href="about.html">About us</a></li>
+						<li><a href="technologies.html">Technologies</a></li>
+						<li><a href="contacts.html">Contact us</a></li>
+					</ul>
+				</nav>
+				<select name="lang_choice_1" id="lang_choice_1">
+					<option value="en" selected="selected">En</option>
+					<option value="ru">Ru</option>
+				</select>
+				<button class="header__btn js-open-p" data-open="contact-popup">get started</button>
+				<div class="header__socials">
+					<a href="https://www.facebook.com/verisium/" target="_blank" class="header__socials--item icon-facebook"></a>
+					<a href="https://twitter.com/verisium/" target="_blank" class="header__socials--item icon-twitter"></a>
+					<a href="https://www.linkedin.com/company/verisium/" target="_blank"
+						class="header__socials--item icon-linkedin"></a>
+					<a href="https://www.instagram.com/verisium/" target="_blank"
+						class="header__socials--item icon-instagram"></a>
+				</div>
+			</div>
+			<label for="toggle-nav" class="header__hamburger--label js-hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</label>
+		</div>
+	</header>
+	<!-- End Header -->
+
+
+	<!-- Begin content -->
+	<main>
+
+		<section class="trace-intro fields-intro">
+			<div class="container">
+
+				<a href="/fields" class="back__link">
+					<img src="img/back--black.svg" alt="">
+					<span>back</span>
+				</a>
+				<div class="trace-intro--inner">
+
+					<div class="trace-intro--text fields-intro--text">
+						<h1>Supply chain traceability system</h1>
+						<p>based on RFID and Blockchain technology</p>
+					</div>
+
+					<div class="trace-intro--image fields-intro__image">
+						<img class="js-lazy" data-src="img/main/slider-image-dots-circle.svg" alt="Traceability image">
+						<div class="road-image">
+							<img class="js-lazy" data-src="img/main/slider-image-map.png" alt="Road map">
+						</div>
+						<svg class="traceability-svgs" viewBox="0 0 532 532" fill="none" xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink">
+							<g filter="url(#filter0_i)">
+								<circle cx="266" cy="266" r="217" fill="url(#pattern0)" />
+							</g>
+							<g filter="url(#filter1_d)">
+								<path
+									d="M352.054 357.04C353.181 357.838 354.741 357.572 355.54 356.446C356.338 355.319 356.072 353.759 354.946 352.96L352.054 357.04ZM238.721 280.872C238.513 279.507 237.237 278.57 235.872 278.779C234.507 278.987 233.57 280.263 233.779 281.628L238.721 280.872ZM321.526 332.335L320.08 334.374L321.526 332.335ZM361.686 288.312L363.261 290.253L361.686 288.312ZM322.521 242.957L320.285 241.839L322.521 242.957ZM312.031 261.05L310.855 258.844L312.031 261.05ZM314.998 258.004L312.762 256.886L314.998 258.004ZM275.213 290.663L273.384 292.368L275.213 290.663ZM293.223 309.978L291.394 311.683L293.223 309.978ZM265.392 322.882L265.269 320.385L265.392 322.882ZM217.916 310.553L215.652 311.614L217.916 310.553ZM230.595 298.825L225.475 298.161L224.832 303.12L229.953 303.783L230.595 298.825ZM215.652 311.614L228.83 339.728L233.357 337.606L220.179 309.492L215.652 311.614ZM243.615 342.909L262.809 326.457L259.555 322.66L240.361 339.112L243.615 342.909ZM265.515 325.379L288.572 324.24L288.325 319.246L265.269 320.385L265.515 325.379ZM295.051 308.273L277.041 288.958L273.384 292.368L291.394 311.683L295.051 308.273ZM278.215 281.919L313.208 263.256L310.855 258.844L275.862 277.507L278.215 281.919ZM317.234 259.122L324.758 244.075L320.285 241.839L312.762 256.886L317.234 259.122ZM332.34 243.332L360.833 280.12L364.786 277.059L336.293 240.27L332.34 243.332ZM360.11 286.37L319.588 319.247L322.739 323.129L363.261 290.253L360.11 286.37ZM320.08 334.374L352.054 357.04L354.946 352.96L322.972 330.295L320.08 334.374ZM233.779 281.628L235.622 293.682L240.565 292.926L238.721 280.872L233.779 281.628ZM319.588 319.247C314.705 323.209 314.949 330.737 320.08 334.374L322.972 330.295C320.541 328.572 320.425 325.006 322.739 323.129L319.588 319.247ZM360.833 280.12C362.331 282.054 362.01 284.829 360.11 286.37L363.261 290.253C367.27 287 367.947 281.141 364.786 277.059L360.833 280.12ZM324.758 244.075C326.24 241.11 330.31 240.711 332.34 243.332L336.293 240.27C332.008 234.738 323.415 235.58 320.285 241.839L324.758 244.075ZM313.208 263.256C314.946 262.329 316.353 260.884 317.234 259.122L312.762 256.886C312.345 257.721 311.678 258.405 310.855 258.844L313.208 263.256ZM277.041 288.958C275.025 286.796 275.606 283.31 278.215 281.919L275.862 277.507C270.355 280.444 269.128 287.803 273.384 292.368L277.041 288.958ZM288.572 324.24C296.645 323.842 300.563 314.185 295.051 308.273L291.394 311.683C294.005 314.483 292.149 319.057 288.325 319.246L288.572 324.24ZM262.809 326.457C263.566 325.807 264.519 325.428 265.515 325.379L265.269 320.385C263.164 320.489 261.154 321.289 259.555 322.66L262.809 326.457ZM228.83 339.728C231.496 345.414 238.846 346.996 243.615 342.909L240.361 339.112C238.102 341.048 234.62 340.299 233.357 337.606L228.83 339.728ZM225.475 298.161C218.039 297.197 212.469 304.825 215.652 311.614L220.179 309.492C218.672 306.276 221.31 302.663 224.832 303.12L225.475 298.161ZM229.953 303.783C236.221 304.596 241.52 299.174 240.565 292.926L235.622 293.682C236.075 296.642 233.565 299.21 230.595 298.825L229.953 303.783Z"
+									fill="#FF634E" />
+							</g>
+						</svg>
+
+
+						<svg id="main-road" width="532" height="531" viewBox="0 0 532 531" fill="none"
+							xmlns="http://www.w3.org/2000/svg">
+
+							<path id="roadAnimate"
+								d="M355.472 355.5L319.972 330C318.306 328.833 316.172 325.4 320.972 321C325.772 316.6 350.639 296.167 362.472 286.5C363.972 285.333 366.172 282 362.972 278C359.772 274 341.972 251.333 333.472 240.5C331.806 238.5 327.572 235.8 323.972 241C320.372 246.2 317.472 252.833 316.472 255.5C316.139 256.833 314.372 260 309.972 262C305.572 264 286.806 274.167 277.972 279C275.972 280.167 272.572 283.6 274.972 288C277.372 292.4 288.972 304.833 294.472 310.5C296.306 313.167 297.972 318.8 289.972 320C279.972 321.5 265.972 321.5 265.472 321.5C264.972 321.5 262.472 322 254.972 329.5C248.972 335.5 242.472 339.667 239.972 341C238.639 341.667 235.272 342.4 232.472 340C229.672 337.6 220.972 318.333 216.972 309C215.972 306.5 215.772 300.9 222.972 298.5C224.972 298 228.972 298.5 230.472 299C231.972 299.5 237.472 300.5 236.972 292.5C236.572 286.1 233.472 271.167 231.972 264.5C231.306 262.833 228.972 260.1 224.972 262.5C220.972 264.9 215.639 264.167 213.472 263.5C212.972 263.333 211.672 262.5 210.472 260.5C208.972 258 200.972 226 189.472 203.5C188.272 200.3 189.639 193.5 190.472 190.5L194.972 174"
+								stroke="rgba(24, 24, 24, 0.1)" stroke-width="4" />
+							<path id="routAnimate"
+								d="M355.472 355.5L319.972 330C318.306 328.833 316.172 325.4 320.972 321C325.772 316.6 350.639 296.167 362.472 286.5C363.972 285.333 366.172 282 362.972 278C359.772 274 341.972 251.333 333.472 240.5C331.806 238.5 327.572 235.8 323.972 241C320.372 246.2 317.472 252.833 316.472 255.5C316.139 256.833 314.372 260 309.972 262C305.572 264 286.806 274.167 277.972 279C275.972 280.167 272.572 283.6 274.972 288C277.372 292.4 288.972 304.833 294.472 310.5C296.306 313.167 297.972 318.8 289.972 320C279.972 321.5 265.972 321.5 265.472 321.5C264.972 321.5 262.472 322 254.972 329.5C248.972 335.5 242.472 339.667 239.972 341C238.639 341.667 235.272 342.4 232.472 340C229.672 337.6 220.972 318.333 216.972 309C215.972 306.5 215.772 300.9 222.972 298.5C224.972 298 228.972 298.5 230.472 299C231.972 299.5 237.472 300.5 236.972 292.5C236.572 286.1 233.472 271.167 231.972 264.5C231.306 262.833 228.972 260.1 224.972 262.5C220.972 264.9 215.639 264.167 213.472 263.5C212.972 263.333 211.672 262.5 210.472 260.5C208.972 258 200.972 226 189.472 203.5C188.272 200.3 189.639 193.5 190.472 190.5L194.972 174"
+								stroke="#FF634E" stroke-dashoffset="0" style="opacity: 0;" stroke-width="4" />
+							<path
+								d="M360 365C363.314 365 366 362.314 366 359C366 355.686 363.314 353 360 353C356.686 353 354 355.686 354 359C354 362.314 356.686 365 360 365Z"
+								stroke="#FF634E" stroke-width="3" />
+							<path d="M208 156L194 161.5V150.5L208 156Z" fill="#FF634E" />
+							<path
+								d="M195 175C198.866 175 202 174.105 202 173C202 171.895 198.866 171 195 171C191.134 171 188 171.895 188 173C188 174.105 191.134 175 195 175Z"
+								fill="#9C9C9C" />
+							<path d="M195 150V173" stroke="black" stroke-linecap="round" />
+
+							<g class="main-circle" id="circle" style="opacity: 0;">
+								<circle opacity="0.3" cx="0" cy="0" r="12" fill="#FF634E" />
+								<circle cx="0" cy="0" r="15.5" stroke="#FF634E" />
+								<circle cx="0" cy="0" r="7" fill="#FF634E" />
+							</g>
+
+
+
+						</svg>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+
+		<section class="anti__commun">
+			<div class="container">
+				<div class="anti__commun--title">
+					<h3>Communicate to your customers through products</h3>
+				</div>
+				<div class="anti__commun--text">
+					<p>Verisium Platform allows you to build a fully custom, media-rich product card that users see when they
+						scan the chip. Implement breathtaking digital scenarios – while your real-world product stays in focus</p>
+					<p>When the brand-to-user connection is made, customer gets to know you better – and vice versa. With
+						Verisium you can measure not only sales, as most brands do, but also pre- and post-sale product
+						interactions. You also get to know your users – what their devices are, what other products from you and
+						other brands they are interested in and consider buying. With geo-reports, you can easily see the how
+						your products take over the world.</p>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="register">
+			<div class="container">
+				<div class="register__text">
+					<h3>Register the events across the distributor chain</h3>
+					<div class="register__text--wrapp">
+						<p>When EACH PRODUCT is tagged, you can see it flowing through the supply chain. Verisium offers a
+							TAMPER-PROOF BLOCKCHAIN ledger that records everything that is happening to your stock.</p>
+					</div>
+
+				</div>
+				<div class="register__inner">
+
+					<div class="register__rout">
+						<div class="register--point"><span></span></div>
+						<div class="register--separator"></div>
+						<div class="register--point"><span></span></div>
+						<div class="register--separator"></div>
+						<div class="register--point"><span></span></div>
+						<div class="register--separator"></div>
+						<div class="register--point"><span></span></div>
+
+						<div class="register__car"></div>
+					</div>
+
+				</div>
+
+				<div class="register__inner">
+
+					<div class="register__item">
+						<p>Brand</p>
+					</div>
+
+
+
+					<div class="register__item">
+						<p>Warehouse</p>
+					</div>
+
+
+
+					<div class="register__item">
+						<p>Store</p>
+					</div>
+
+
+
+					<div class="register__item">
+						<p>Customer</p>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="combination">
+			<div class="container">
+				<h3>Combination of RFID and Blockchain
+					technologies makes it impossible to
+					duplicate a tag</h3>
+
+				<div class="combination__list">
+
+					<div class="combination__item">
+						<div class="combination--image">
+							<img class="js-lazy" data-src="img/anti/circles.svg" alt="Combination image">
+						</div>
+						<div class="combination--text">
+							<b>Digital</b>
+							<p>An entry in the blockchain. On a <br> software level the blockchain guarantees data validity</p>
+						</div>
+					</div>
+
+					<div class="combination__item">
+						<div class="combination--image">
+							<img class="js-lazy" data-src="img/anti/comb-image-2.svg" alt="Combination image">
+						</div>
+						<div class="combination--text">
+							<b>Physical</b>
+							<p>NFC Tag inside an item. On a hardware level NFC tags are protected from copying using tamper-proof
+								features and cryptography</p>
+						</div>
+					</div>
+
+
+				</div>
+
+			</div>
+		</section>
+
+
+		<section class="alerting">
+			<div class="container">
+				<h3>Alerting Module</h3>
+				<p>Set up rules to receive notifications for certain events</p>
+				<div class="alerting__list">
+
+					<div class="alerting__item">
+						<h4>Minor issue</h4>
+						<ul>
+							<li>Incorrect logistic process</li>
+							<li>High volume of scans from one code</li>
+							<li>Custom rules</li>
+						</ul>
+						<img class="js-lazy" data-src="img/anti/alert-icon-1.svg" alt="Alert icon">
+					</div>
+					<div class="alerting__item">
+						<h4>Critical issue</h4>
+						<ul>
+							<li>Fake detected</li>
+							<li>Massive scans from one code</li>
+							<li>Custom rules</li>
+						</ul>
+						<img class="js-lazy" data-src="img/anti/alert-icon-2.svg" alt="Alert icon">
+					</div>
+					<div class="alerting__item">
+						<h4>Notification</h4>
+						<ul>
+							<li>First 100 scans by product</li>
+							<li>Trends</li>
+							<li>Custom rules</li>
+						</ul>
+						<img class="js-lazy" data-src="img/anti/alert-icon-3.svg" alt="Alert icon">
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section>
+			<div class="container">
+				<div class="marketing__show">
+					<h3 class="marketing__show-title">What you<br> can show</h3>
+
+					<div class="marketing__show-tabs">
+						<div class="marketing__show-thumb">
+							<div class="marketing__show-image _product _active">
+								<img data-src="img/clock.png" alt="" class="marketing__show-img js-lazy">
+								<img data-src="img/shadow-clock.png" alt="" class="marketing__show-shadow js-lazy">
+							</div>
+							<div class="marketing__show-image _media" style="display: none">
+								<img data-src="img/camera.png" alt="" class="marketing__show-img js-lazy">
+								<img data-src="img/shadow-camera.png" alt="" class="marketing__show-shadow js-lazy">
+							</div>
+							<div class="marketing__show-image _updates" style="display: none">
+								<img data-src="img/updates.png" alt="" class="marketing__show-img js-lazy">
+								<img data-src="img/shadow-updates.png" alt="" class="marketing__show-shadow js-lazy">
+							</div>
+							<span class="marketing__show-dot _first"></span>
+							<span class="marketing__show-dot _second"></span>
+							<span class="marketing__show-dot _third"></span>
+							<span class="marketing__show-bg"></span>
+						</div>
+						<ul class="marketing__show-nav">
+							<li class="marketing__show-nav-item _active">
+								<span class="marketing__show-nav-name" data-show="product">Product information</span>
+
+								<ul class="marketing__show-nav-subnav">
+									<li class="marketing__show-nav-subitem">Materials</li>
+									<li class="marketing__show-nav-subitem">Product idea</li>
+									<li class="marketing__show-nav-subitem">Treatment and usage</li>
+									<li class="marketing__show-nav-subitem">Service centres</li>
+								</ul>
+							</li>
+							<li class="marketing__show-nav-item">
+								<span class="marketing__show-nav-name" data-show="media">Media content</span>
+
+								<ul class="marketing__show-nav-subnav" style="display: none">
+									<li class="marketing__show-nav-subitem">Video</li>
+									<li class="marketing__show-nav-subitem">Pictures</li>
+									<li class="marketing__show-nav-subitem">Where to buy</li>
+									<li class="marketing__show-nav-subitem">Music</li>
+								</ul>
+							</li>
+							<li class="marketing__show-nav-item">
+								<span class="marketing__show-nav-name" data-show="updates">Dynamic updates</span>
+
+								<ul class="marketing__show-nav-subnav" style="display: none">
+									<li class="marketing__show-nav-subitem">Sport events and statistics</li>
+									<li class="marketing__show-nav-subitem">Tickets to private events</li>
+									<li class="marketing__show-nav-subitem">Brand news and show invitations</li>
+									<li class="marketing__show-nav-subitem">Concerts invintations and videos  from backstage</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="marketing__where">
+				<div class="container">
+					<div class="marketing__where-row">
+						<div class="marketing__where-main">
+							<h4 class="marketing__where-title">See where, when and which products were scanned</h4>
+							<p class="marketing__where-description">You know what your customers buy. But do you know what they are
+								looking at? With Verisium you can get an accurate portrait of people who browse and scan your goods</p>
+						</div>
+						<div class="marketing__where-map">
+							<img class="js-lazy" data-src="img/map-frame.svg" alt="">
+
+							<img src="img/map-product1.png" alt="" class="marketing__where-product-1 js-lazy">
+							<img src="img/map-product2.png" alt="" class="marketing__where-product-2 js-lazy">
+							<img src="img/map-product3.png" alt="" class="marketing__where-product-3 js-lazy">
+						</div>
+					</div>
+					<div class="marketing__where-row">
+						<div class="marketing__where-thumb">
+							<img data-src="img/marketing/phone.png" alt="" class="marketing__where-thumb-1 js-lazy">
+							<img data-src="img/scan&buy-2.png" alt="" class="marketing__where-thumb-2 js-lazy">
+
+							<button class="header__btn js-open-p" data-open="contact-popup">get started</button>
+						</div>
+						<div class="marketing__where-info">
+							<h4 class="marketing__where-title">Scan & Buy</h4>
+							<p class="marketing__where-description">ADDITIONAL SALES CHANNEL – when a person scans the product he can
+								buy it with one tap through ecommerce integration</p>
+							<button class="header__btn js-open-p" data-open="contact-popup">get started</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="marketing__targeted">
+				<div class="container marketing__targeted-container" data-slider>
+					<div class="marketing__targeted-col">
+						<span class="marketing__targeted-title">Personalized targeted advertisements</span>
+					</div>
+					<div class="marketing__targeted-thumb" data-slides>
+						<span class="item">
+							<img data-src="img/marketing/targeted1.svg" alt="" class="marketing__targeted-img js-lazy">
+						</span>
+						<span class="item">
+							<img data-src="img/marketing/targeted2.svg" alt="" class="marketing__targeted-img js-lazy">
+						</span>
+						<span class="item">
+							<img data-src="img/marketing/targeted3.svg" alt="" class="marketing__targeted-img js-lazy">
+						</span>
+					</div>
+					<div class="marketing__targeted-dots" data-nav>
+						<span class="marketing__targeted-dot">
+							<span class="marketing__targeted-icon"></span>
+							<span class="marketing__targeted-line"></span>
+							<span class="marketing__targeted-name">Who scanned this particular product</span>
+						</span>
+						<span class="marketing__targeted-dot">
+							<span class="marketing__targeted-icon"></span>
+							<span class="marketing__targeted-line"></span>
+							<span class="marketing__targeted-name">How many times the person scanned the product</span>
+						</span>
+						<span class="marketing__targeted-dot">
+							<span class="marketing__targeted-icon"></span>
+							<span class="marketing__targeted-line"></span>
+							<span class="marketing__targeted-name">Region</span>
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="marketing__technology">
+				<div class="container">
+					<div class="marketing__technology-left">
+						<span class="marketing__technology-title">NFC Technology is a new <br>way to communicate with physical
+							objects</span>
+					</div>
+					<div class="marketing__technology-right">
+						<img data-src="img/marketing/tech1.png" alt=""
+							class="marketing__technology-img marketing__technology-img--center js-lazy">
+						<img data-src="img/marketing/tech2.png" alt="" class="marketing__technology-img js-lazy">
+						<img data-src="img/marketing/tech3.png" alt="" class="marketing__technology-img js-lazy">
+						<img data-src="img/marketing/tech4.png" alt="" class="marketing__technology-img js-lazy">
+					</div>
+				</div>
+			</div>
+
+			<div class="marketing__dignity">
+				<div class="container">
+					<div class="marketing__dignity-item">
+						<div class="marketing__dignity-img">
+							<img class="js-lazy" data-src="img/marketing/icon1.svg" alt="">
+						</div>
+						<span class="marketing__dignity-title">Used in Paypass, Apple pay, Google Pay</span>
+					</div>
+					<div class="marketing__dignity-item">
+						<div class="marketing__dignity-img">
+							<img class="js-lazy" data-src="img/marketing/icon2.svg" alt="">
+						</div>
+						<span class="marketing__dignity-title">Reading distance</span>
+					</div>
+					<div class="marketing__dignity-item">
+						<div class="marketing__dignity-img">
+							<img class="js-lazy" data-src="img/marketing/icon3.svg" alt="">
+						</div>
+						<span class="marketing__dignity-title">The most easy secure way to authenticate a product</span>
+					</div>
+					<div class="marketing__dignity-item">
+						<div class="marketing__dignity-img">
+							<img class="js-lazy" data-src="img/marketing/icon4.svg" alt="">
+						</div>
+						<span class="marketing__dignity-title">NFC tags can be a part  of your product</span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+	</main>
+
+	<!-- End content -->
+
+	<!-- Begin footer -->
+	<footer class="footer">
+		<div class="footer__inner">
+			<div class="footer__logo">
+				<a href="/">
+					<div class="icon-union"></div>
+					<div class="icon-logo"></div>
+				</a>
+			</div>
+			<div class="footer__menu">
+				<ul>
+					<li><a href="faq.html">Q&A</a></li>
+					<li><a href="about.html">About us</a></li>
+					<li><a href="team.html">Team</a></li>
+					<li><a href="policy.html">Legal</a></li>
+					<li><a href="policy.html">Privacy Policy</a></li>
+					<li><a href="policy.html">License Agreement</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<!-- End footer -->
+
+	<!-- Begin popups -->
+	<div data-animate="true" class="contact-popup popup">
+		<div class="contact-popup__inner">
+			<div data-animation-name="sUp" class="contact-popup__form">
+				<button class="close-popup js-close-popup"><span></span><span></span></button>
+				<h4>If you’are interested in working
+					or collaborating with us please contact us</h4>
+				<form action="" class="form__fields" id="form-contacts-popup">
+					<div class="form__fields--short">
+						<div class="form__fields--item input-field">
+							<label for="user-name-popup">name</label>
+							<input id="user-name-popup" type="text" class="validate-global" name="name" autocomplete="off">
+						</div>
+						<div class="form__fields--item input-field">
+							<label for="user-email-popup">e-mail</label>
+							<input id="user-email-popup" type="text" class="validate-email" name="email" autocomplete="off">
+						</div>
+					</div>
+					<div class="form__fields--long input-field">
+						<label for="user-message-popup">message</label>
+						<textarea id="user-message-popup" name="user-message" class="" rows="2" autocomplete="off"></textarea>
+					</div>
+					<div class="form__fields--long input-field">
+						<button type="submit">get started</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup thanks-popup" data-animate="true">
+		<div class="container">
+			<div class="thanks-popup__inner" data-animation-name="sUp">
+				<button class="close-popup js-close-popup"><span></span><span></span></button>
+				<div class="thanks-popup__inner--text">
+					<h4 class="js-popup-title">Thank you
+						for contacting us!</h4>
+					<p class="js-popup-text">Your message has been successfully sent.
+						One of our colleagues will get back to you shortly. Have a great day!</p>
+				</div>
+				<div class="thanks-popup__inner--btn">
+					<button class="js-close-popup">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<button class="hideTrigger js-open-p" data-open="thanks-popup"></button>
+	<!-- End popups -->
+
+	<!-- Begin scripts -->
+
+	<script type="text/javascript" src="js/app.js"></script>
+
+	<!-- End scripts -->
+
+</body>
+
+</html>
